@@ -1,6 +1,6 @@
 # To run the application
 
-Clone the project
-Go the project directory
-Run "npm install"
-After it finishes, Run "npm start"
+1. Clone the project
+2. Go to the project directory
+3. Run "npm install"
+4. After it finishes, run "npm start"
