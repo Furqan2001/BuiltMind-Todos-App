@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addItems, updateItem, deleteItem } from "../features/itemsSlice";
-import { RootState } from "../store/store";
-import { Item } from "../types/Item";
-import ListItem from "../components/ListItem";
-import { fetchItems } from "../services/api";
+import { addItems, updateItem, deleteItem } from "../../features/itemsSlice";
+import { RootState } from "../../store/store";
+import { Item } from "../../types/Item";
+import { fetchItems } from "../../services/api";
+import ListItem from "../../components/ListItem";
 
 const ItemList: React.FC = () => {
   const dispatch = useDispatch();

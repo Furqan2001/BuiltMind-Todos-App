@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Item } from "../types/Item";
+import { Item } from "../../types/Item";
 
 interface Props {
   item: Item;
